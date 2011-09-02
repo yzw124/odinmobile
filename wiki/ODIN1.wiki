@@ -1,0 +1,20 @@
+#summary ODIN-1 Specifications
+#labels Featured
+
+== Nomenclature ==
+The identifier generated in this implementation of ODIN is officially designated ODIN-1. In the event of a major revision, the new identifier will be termed ODIN-2 and so forth.
+
+== Generating an ODIN-1 == 
+Creating an ODIN-1 is designed to be as simple as possible:
+
+1. *Identifier Seed Step*: Lookup the following Identifier Seed for each of the following platforms:
+|| || iOS || Android || Windows Phone ||
+|| Identifier Seed || 802.11 MAC Address || ANDROID_ID || DeviceUniqueId ||
+
+2. *Hash Step*: Pass the Identifier Seed through the SHA-1 hash function.
+
+3.The resulting message digest is ODIN-1.
+
+==Security==
+
+Because ODIN-1 is personally identifying information, any ODIN-1 must not be transmitted over unsecure connections as plain text.
