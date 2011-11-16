@@ -69,6 +69,9 @@ NSString * ODIN1(){
     
 // Step 2: Take the SHA-1 of the MAC address
     
+    //NSData *data = [NSData dataWithBytes:ptr length:6];
+
+    
     CFDataRef data = CFDataCreate(NULL, (uint8_t*)ptr, 6);
     
     unsigned char messageDigest[CC_SHA1_DIGEST_LENGTH];
@@ -91,10 +94,6 @@ NSString * ODIN1(){
     
     free(buf);
     
-    NSString *odinstring = [[[NSString alloc] initWithString:(NSString*)string] autorelease];
-    CFRelease(data);
-    CFRelease(string);
-
-    return odinstring;
+	return (NSString*)string;
 }
 
