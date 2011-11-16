@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6319F7F9141163770008CE3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6319F7F8141163770008CE3A /* UIKit.framework */; };
+		6319F7FB141163770008CE3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6319F7FA141163770008CE3A /* Foundation.framework */; };
+		6319F7FD141163780008CE3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6319F7FC141163770008CE3A /* CoreGraphics.framework */; };
+		6319F803141163780008CE3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6319F801141163780008CE3A /* InfoPlist.strings */; };
+		6319F806141163780008CE3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319F805141163780008CE3A /* main.m */; };
+		6319F809141163780008CE3A /* ODINAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319F808141163780008CE3A /* ODINAppDelegate.m */; };
+		6319F80C141163780008CE3A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6319F80A141163780008CE3A /* MainWindow.xib */; };
+		6319F80F141163780008CE3A /* ODINViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319F80E141163780008CE3A /* ODINViewController.m */; };
+		6319F812141163780008CE3A /* ODINViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6319F810141163780008CE3A /* ODINViewController.xib */; };
+		6319F81B141163A50008CE3A /* ODIN.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319F81A141163A50008CE3A /* ODIN.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6319F7F4141163770008CE3A /* ODIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODIN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6319F7F8141163770008CE3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6319F7FA141163770008CE3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6319F7FC141163770008CE3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6319F800141163780008CE3A /* ODIN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ODIN-Info.plist"; sourceTree = "<group>"; };
+		6319F802141163780008CE3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6319F804141163780008CE3A /* ODIN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ODIN-Prefix.pch"; sourceTree = "<group>"; };
+		6319F805141163780008CE3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6319F807141163780008CE3A /* ODINAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODINAppDelegate.h; sourceTree = "<group>"; };
+		6319F808141163780008CE3A /* ODINAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODINAppDelegate.m; sourceTree = "<group>"; };
+		6319F80B141163780008CE3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6319F80D141163780008CE3A /* ODINViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODINViewController.h; sourceTree = "<group>"; };
+		6319F80E141163780008CE3A /* ODINViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODINViewController.m; sourceTree = "<group>"; };
+		6319F811141163780008CE3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ODINViewController.xib; sourceTree = "<group>"; };
+		6319F819141163A50008CE3A /* ODIN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODIN.h; sourceTree = "<group>"; };
+		6319F81A141163A50008CE3A /* ODIN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODIN.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6319F7F1141163770008CE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6319F7F9141163770008CE3A /* UIKit.framework in Frameworks */,
+				6319F7FB141163770008CE3A /* Foundation.framework in Frameworks */,
+				6319F7FD141163780008CE3A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6319F7E9141163770008CE3A = {
+			isa = PBXGroup;
+			children = (
+				6319F8181411638C0008CE3A /* ODIN */,
+				6319F7FE141163780008CE3A /* Sample App */,
+				6319F7F7141163770008CE3A /* Frameworks */,
+				6319F7F5141163770008CE3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6319F7F5141163770008CE3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6319F7F4141163770008CE3A /* ODIN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6319F7F7141163770008CE3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6319F7F8141163770008CE3A /* UIKit.framework */,
+				6319F7FA141163770008CE3A /* Foundation.framework */,
+				6319F7FC141163770008CE3A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6319F7FE141163780008CE3A /* Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				6319F807141163780008CE3A /* ODINAppDelegate.h */,
+				6319F808141163780008CE3A /* ODINAppDelegate.m */,
+				6319F80A141163780008CE3A /* MainWindow.xib */,
+				6319F80D141163780008CE3A /* ODINViewController.h */,
+				6319F80E141163780008CE3A /* ODINViewController.m */,
+				6319F810141163780008CE3A /* ODINViewController.xib */,
+				6319F7FF141163780008CE3A /* Supporting Files */,
+			);
+			name = "Sample App";
+			path = ODIN;
+			sourceTree = "<group>";
+		};
+		6319F7FF141163780008CE3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6319F800141163780008CE3A /* ODIN-Info.plist */,
+				6319F801141163780008CE3A /* InfoPlist.strings */,
+				6319F804141163780008CE3A /* ODIN-Prefix.pch */,
+				6319F805141163780008CE3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6319F8181411638C0008CE3A /* ODIN */ = {
+			isa = PBXGroup;
+			children = (
+				6319F819141163A50008CE3A /* ODIN.h */,
+				6319F81A141163A50008CE3A /* ODIN.m */,
+			);
+			name = ODIN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6319F7F3141163770008CE3A /* ODIN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6319F815141163780008CE3A /* Build configuration list for PBXNativeTarget "ODIN" */;
+			buildPhases = (
+				6319F7F0141163770008CE3A /* Sources */,
+				6319F7F1141163770008CE3A /* Frameworks */,
+				6319F7F2141163770008CE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODIN;
+			productName = ODIN;
+			productReference = 6319F7F4141163770008CE3A /* ODIN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6319F7EB141163770008CE3A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6319F7EE141163770008CE3A /* Build configuration list for PBXProject "ODIN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6319F7E9141163770008CE3A;
+			productRefGroup = 6319F7F5141163770008CE3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6319F7F3141163770008CE3A /* ODIN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6319F7F2141163770008CE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6319F803141163780008CE3A /* InfoPlist.strings in Resources */,
+				6319F80C141163780008CE3A /* MainWindow.xib in Resources */,
+				6319F812141163780008CE3A /* ODINViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6319F7F0141163770008CE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6319F806141163780008CE3A /* main.m in Sources */,
+				6319F809141163780008CE3A /* ODINAppDelegate.m in Sources */,
+				6319F80F141163780008CE3A /* ODINViewController.m in Sources */,
+				6319F81B141163A50008CE3A /* ODIN.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6319F801141163780008CE3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6319F802141163780008CE3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6319F80A141163780008CE3A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6319F80B141163780008CE3A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6319F810141163780008CE3A /* ODINViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6319F811141163780008CE3A /* en */,
+			);
+			name = ODINViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6319F813141163780008CE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6319F814141163780008CE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6319F816141163780008CE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ODIN/ODIN-Prefix.pch";
+				INFOPLIST_FILE = "ODIN/ODIN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6319F817141163780008CE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ODIN/ODIN-Prefix.pch";
+				INFOPLIST_FILE = "ODIN/ODIN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6319F7EE141163770008CE3A /* Build configuration list for PBXProject "ODIN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6319F813141163780008CE3A /* Debug */,
+				6319F814141163780008CE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6319F815141163780008CE3A /* Build configuration list for PBXNativeTarget "ODIN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6319F816141163780008CE3A /* Debug */,
+				6319F817141163780008CE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6319F7EB141163770008CE3A /* Project object */;
+}
