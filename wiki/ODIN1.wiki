@@ -22,13 +22,21 @@ Creating an ODIN-1 is designed to be as simple as possible:
 
 // However, representing it as a raw byte array prevents any ambiguity around punctuation and capitalization:
 
-@[0x1a, 0x2b, 0x3c, 0x4d, 0x6f];
+@[0x1a, 0x2b, 0x3c, 0x4d, 0x5e, 0x6f];
 
 }}}
 
 2. *Hash Step*: Pass the Identifier Seed through the SHA-1 hash function.
 
-3.The resulting message digest is ODIN-1.
+3.The resulting message digest is *ODIN-1*.
+
+{{{
+
+// The format of this hash should be a 40 lowercase character string:
+
+@"82a53f1222f8781a5063a773231d4a7ee41bdd6f"
+
+}}}
 
 ==Security==
 
